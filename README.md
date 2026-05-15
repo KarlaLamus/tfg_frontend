@@ -21,3 +21,38 @@ frontend/
 ├── .env
 ├── package.json
 └── vite.config.js
+````
+
+## Instalación de dependencias
+
+Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+
+```bash
+npm install
+```
+
+## Ejecución del proyecto
+
+Levanta la aplicación en entorno de desarrollo con:
+
+```bash
+npm run dev
+```
+
+## Importante
+
+Asegúrate de que la aplicación se haya iniciado en el puerto `5173`, ya que el backend tiene configurado el CORS para permitir peticiones desde dicho puerto.
+
+La URL correcta debe ser:
+
+```bash
+http://localhost:5173
+```
+
+## Acceso a la aplicación
+
+Abre el navegador y accede a:
+
+```bash
+http://localhost:5173
+```
